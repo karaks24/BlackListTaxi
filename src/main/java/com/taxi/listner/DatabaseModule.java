@@ -28,7 +28,7 @@ public class DatabaseModule extends MyBatisModule {
         Names.bindProperties(binder(), myBatisProperties);
         bindDataSourceProviderType(PooledDataSourceProvider.class);
         bindTransactionFactoryType(JdbcTransactionFactory.class);
-        addMapperClass(UserRepository.class);
+        addMapperClasses("com.taxi.repository");
     }
 
 }
