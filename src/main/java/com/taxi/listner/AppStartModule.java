@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class AppStartModule extends JerseyServletModule {
 
-    private final String CONTROLLERS_PACKAGE = "com.taxi.controllers";
+    private final static String CONTROLLERS_PACKAGE = "com.taxi.controllers";
 
     private void controllerBinder(){
         ClassLoader contextClassLoader = Thread.currentThread()
