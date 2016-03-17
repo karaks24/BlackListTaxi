@@ -7,7 +7,7 @@ import com.taxi.service.Service;
 import com.taxi.service.ServiceImpl;
 
 
-public class StartAppListner extends JerseyServletModule {
+public class AppStartModule extends JerseyServletModule {
 
     @Override
     protected void configureServlets() {
