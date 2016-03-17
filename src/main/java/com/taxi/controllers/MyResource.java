@@ -1,4 +1,4 @@
-package com.taxi;
+package com.taxi.controllers;
 
 import com.google.inject.Inject;
 import com.taxi.service.Service;
