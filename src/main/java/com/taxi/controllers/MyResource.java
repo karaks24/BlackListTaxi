@@ -1,7 +1,8 @@
 package com.taxi.controllers;
 
 import com.google.inject.Inject;
-import com.taxi.service.Service;
+import com.taxi.model.User;
+import com.taxi.service.UserService;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -13,10 +14,17 @@ import javax.ws.rs.core.MediaType;
 public class MyResource {
 
     @Inject
-    Service service;
+    UserService userService;
 
     @GET
-    public String getIt() {
-        return service.sayHello();
+    @Path("/user")
+    public User getUser() {
+        return userService.get();
+    }
+
+    @GET
+    @Path("/message")
+    public String getMessage() {
+        return "Message from server";
     }
 }
