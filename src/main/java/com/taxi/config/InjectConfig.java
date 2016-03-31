@@ -1,4 +1,4 @@
-package com.taxi.listener;
+package com.taxi.config;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;

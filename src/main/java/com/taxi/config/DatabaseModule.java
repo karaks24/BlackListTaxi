@@ -1,4 +1,4 @@
-package com.taxi.listener;
+package com.taxi.config;
 
 import com.google.inject.name.Names;
 import org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory;
