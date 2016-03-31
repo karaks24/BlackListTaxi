@@ -1,4 +1,4 @@
-package com.taxi.listner;
+package com.taxi.listener;
 
 import com.google.common.reflect.ClassPath;
 import com.sun.jersey.guice.JerseyServletModule;

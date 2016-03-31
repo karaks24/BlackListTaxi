@@ -1,7 +1,6 @@
-package com.taxi.listner;
+package com.taxi.listener;
 
 import com.google.inject.name.Names;
-import com.taxi.repository.UserRepository;
 import org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory;
 import org.mybatis.guice.MyBatisModule;
 import org.mybatis.guice.datasource.builtin.PooledDataSourceProvider;

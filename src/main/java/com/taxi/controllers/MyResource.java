@@ -14,7 +14,7 @@ import javax.ws.rs.core.MediaType;
 public class MyResource {
 
     @Inject
-    UserService userService;
+    private UserService userService;
 
     @GET
     @Path("/user")
